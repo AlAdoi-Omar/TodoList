@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4255fd" />
+    <meta
+      name="description"
+      content="Effortlessly manage your tasks with our task addition feature. Quickly add and organize your to-dos, ensuring a streamlined and efficient task management experience. Stay on top of your priorities by easily inputting new tasks, creating a comprehensive list to keep you organized and focused. Simplify your workflow and enhance productivity with our intuitive task addition functionality."
+    />
+    <title>TO-DO List App</title>
+    <!-- <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2 class="text-center">
+          To-Do List <img src="images/icon.png" alt="iconTask" />
+        </h2>
+
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            placeholder="Add your text"
+            class="form-control"
+          />
+          <button id="addBtn" class="btn btn-primary">Add Task</button>
+        </div>
+        <ul id="list-container"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
