@@ -119,12 +119,14 @@ li span:hover {
   cursor: pointer;
   background: #edeef0;
 }
-@media only screen and (max-width: 600px) {
-  .row {
-    flex-direction: column;
+
+@media only screen and (max-width: 400px) {
+  .todo-app {
+    padding: 30px 20px 50px;
   }
 
   #addBtn {
     width: 100%;
+    margin-top: 20px;
   }
 }
